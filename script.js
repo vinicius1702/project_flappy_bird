@@ -78,6 +78,8 @@ function Bird(gameHeight){
     this.getBottom = () => parseInt(this.element.style.bottom.split('px')[0])
     this.setBottom = bottom => this.element.style.bottom = `${bottom}px`
 
+    window.onmousedown = e => flying = true
+    window.onmouseup = e => flying = false
     window.onkeydown = e => flying = true
     window.onkeyup = e => flying = false
 
