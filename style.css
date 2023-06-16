@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+    font-family: 'Pixel';
+    src: url(../fonts/Pixel.ttf);
+}
+* {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+[wm-flappy]{
+    position: relative;
+    border: 5px solid dodgerblue;
+    width: 1200px;
+    height: 700px;
+    margin: 15px;
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+.barrier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barrier .border {
+    height: 30px;
+    width: 130px;
+    background: linear-gradient(90deg, #639301, #a5e82e);
+    border: 2px solid #000;
+}
+.barrier .body {
+    height: 150px;
+    width: 110px;
+    background: linear-gradient(90deg, #639301, #a5e82e);
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.both-barriers{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bird {
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+}
+.progress {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: 'Pixel';
+    font-size: 70px;
+    z-index: 100;
+}
+.game-over {
+    height: 100%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 100;
+}
+.game-over p {
+    font-family: 'Pixel';
+    font-size: 4em;
+    color: red;
+    z-index: 100;
+}
+.game-over button {
+    font-family: 'Pixel';
+    font-weight: bold;
+    font-size: 2em;
+    color: #639301;
+    background-color: gold;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #000;
+    padding: 25px;
+    z-index: 100;
+}
+.game-over button:hover {
+    color: gold;
+    background-color: #639301;
+}
