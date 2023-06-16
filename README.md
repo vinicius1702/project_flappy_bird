@@ -10,4 +10,9 @@ Esse é um projeto web de um desafio proposto pelo meu professor do curso de web
 📌Git<br>
 📌Github
 
+## 📵 Not mobile friendly yet / Por enquanto não funciona em dispositivos moveis
+I intend to make it work in the future...
+
+Eu pretendo fazer funcionar no futuro...
+
 ## ❗❗❗This has not copy intention, this is just an educational test of my skills, you can find the original game on https://flappybird.io/ 
