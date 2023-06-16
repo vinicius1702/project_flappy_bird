@@ -10,4 +10,4 @@ Esse é um projeto web de um desafio proposto pelo meu professor do curso de web
 📌Git<br>
 📌Github
 
-## ❗❗❗This has not copy intention, this is just a educational test of my skills, you can find the original game on https://flappybird.io/ 
+## ❗❗❗This has not copy intention, this is just an educational test of my skills, you can find the original game on https://flappybird.io/ 
