@@ -153,7 +153,7 @@ function FlappyBird(){
                 gameOver.style.display = 'flex'
                 clearInterval(loop)
             }
-        }, 2)
+        }, 1)
     }
 }
 
