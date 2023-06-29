@@ -137,7 +137,7 @@ function FlappyBird(){
     const gameOver = document.querySelector('.game-over')
 
     const progress = new Progress()
-    const barrierss = new Barriers(height, width, 300, 400,
+    const barrierss = new Barriers(height, width, 250, 400,
         () => progress.attScore(++score))
     const bird = new Bird(height)
 
@@ -153,7 +153,7 @@ function FlappyBird(){
                 gameOver.style.display = 'flex'
                 clearInterval(loop)
             }
-        }, 1)
+        }, 2)
     }
 }
 
